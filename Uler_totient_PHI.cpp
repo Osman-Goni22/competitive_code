@@ -31,6 +31,13 @@ ll phi(ll n)
         }
     }
 
+
+     if(n>1)
+    {
+        ret/=n;
+        ret*=(n-1);
+    }
+
   return ret;
 
 }
